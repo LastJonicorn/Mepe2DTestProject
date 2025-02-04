@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        Debug.Log("Hello World!");
-    }
+    public PlayerController controller;
+    public float runSpeed = 40f;
+    float horizontalMove = 0f;
 
-    // Update is called once per frame
     void Update()
     {
-        Debug.Log(Input.GetAxisRaw("Horizontal"));
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+    }
+
+    private void FixedUpdate()
+    {
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
     }
 }
