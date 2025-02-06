@@ -1166,6 +1166,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1616680628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1837836800971556226, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+  m_PrefabInstance: {fileID: 2282028905750924972}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7561e4ab7367d114abd1856945c05929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1640959468
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,6 +5093,30 @@ PrefabInstance:
     - target: {fileID: 3402139824953393419, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1616680628}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnCrouching
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8847586577587011718, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
       propertyPath: m_LocalPosition.x
