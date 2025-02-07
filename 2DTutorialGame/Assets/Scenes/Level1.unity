@@ -10715,6 +10715,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4695961347184696567, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695961347184696567, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1346
+      objectReference: {fileID: 0}
     - target: {fileID: 7959989969046690989, guid: 7f6de9263b146724e9a15402fbfdd6a1, type: 3}
       propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
