@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 758be353452aa5442afc46cef4767809
+guid: e4f3d4db556594443a22b21f96723526
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7061281341232821394
-    second: Slime_Idle1_0
+      213: 1862825446050098746
+    second: Enemy-hurt-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_Idle1_0
+      name: Enemy-hurt-1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 30
-        height: 20
+        x: 7
+        y: 0
+        width: 20
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b49bc480a410e90800000000000000
-      internalID: -7061281341232821394
+      spriteID: a3eef5e9fd51ad910800000000000000
+      internalID: 1862825446050098746
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Slime_Idle1_0: -7061281341232821394
+      Enemy-hurt-1_0: 1862825446050098746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
