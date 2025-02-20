@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849514328133124046}
   - component: {fileID: 4437847395081839040}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 7088026011227462677}
   - component: {fileID: 8413105402668084495}
   - component: {fileID: 608419715312070190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,3 +246,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthAmount: 20
+  targetCollider: {fileID: 0}

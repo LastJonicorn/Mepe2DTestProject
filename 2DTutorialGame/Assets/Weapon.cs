@@ -7,6 +7,9 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        PauseMenu pauseMenu = FindFirstObjectByType<PauseMenu>();
+        if (pauseMenu != null && pauseMenu.GameIsPaused) return;
+
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();

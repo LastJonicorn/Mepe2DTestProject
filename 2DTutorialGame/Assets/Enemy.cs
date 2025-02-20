@@ -16,6 +16,12 @@ public class Enemy : MonoBehaviour
     public float attackCooldown = 2f;
     private float lastAttackTime = -Mathf.Infinity;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip hurtSound;
+    public AudioClip deathSound;
+
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -54,6 +60,7 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
 
+        audioSource.PlayOneShot(hurtSound);
         //Näytä vahingoittumisanimaatio
         animator.SetTrigger("Hurt");
 
@@ -66,9 +73,12 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         animator.SetBool("IsDead", true);
+        audioSource.PlayOneShot(deathSound);
+
         GetComponent<Collider2D>().enabled = false;
         //Destroy(gameObject);
         this.enabled = false;
+
     }
     private void OnDrawGizmosSelected()
     {

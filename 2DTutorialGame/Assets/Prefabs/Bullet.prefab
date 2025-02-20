@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483300625918473781}
   - component: {fileID: 5485961476824313515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6743641195355868319}
   - component: {fileID: 1407479658897449161}
   - component: {fileID: 404863980097220093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
